@@ -1,1 +1,1 @@
-# Calcultor
+# This is the final project for the odin project and am very exicted about it, it actually doesn't seem too hard. I have learned a lot over this course and very excited to contine with this. 
