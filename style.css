@@ -1,29 +1,44 @@
-
+body{background-color: red;
+display:flex;
+justify-content: center;
+align-items: center;
+}
 #container{
     display:flex;
     flex-direction: column;
     background-color: rgb(49, 48, 48);
-    width: 402px;
-    height:502px;
+    width: 430px;
+    height:520px;
+    border-radius: 20px;
+    padding-top: 18px;
 
 }
-
+#display-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 #display{
-    width: 400px;
+    width: 398px;
     height:50px;
     display:flex;
     justify-content:flex-end;
     align-items:center;    
     background-color:darkcyan;
+
 }
 #deletion{display:flex;
-text-align:center;padding:2px;}
+text-align:center;padding:2px;
+display: flex;
+justify-content: center;
+align-items: center;}
 #clear{width:200px;
 height: 48px;
 background-color:aliceblue;
 display:flex;
 justify-content:center;
 align-items:center;
+border-radius:6px;
 }
 
 #backspace{width:200px;
@@ -32,6 +47,7 @@ background-color: antiquewhite;
 display:flex;
 justify-content:center;
 align-items:center;
+border-radius:6px;
 
 }
 #buttons{display:flex;
