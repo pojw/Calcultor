@@ -54,8 +54,9 @@ function equal(){
 
     } 
     else if (split[1]=="/"){
-        display.textContent=(Number(split[0])/Number(split[2])).toFixed(3)
-
+        if(Number(split[2])===0){display.textContent="lollll"}
+       else { display.textContent=(Number(split[0])/Number(split[2])).toFixed(3)
+    }
     }
 }
 }
